@@ -1,15 +1,4 @@
-#open file and read contents in boys
+with open('1880-boys.txt', "w") as f_boys:
+   boys = f_boys.read()
 
-with open('data/1880-boys.txt') as f:
-    boys = f.read()
-
-with open('data/1880-girls.txt') as f:
-    girls = f.read()
-
-# print(boys)
-# print('---')
-# print(girls)
-
-with open('data/1880-all.text', "w")  as f:
-    f.write(boys+"\n"+girls)
           
